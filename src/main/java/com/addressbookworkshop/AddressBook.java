@@ -7,6 +7,11 @@ package com.addressbookworkshop;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * @Purpose : List And AddContact function
+ * @Param: Contacts
+ * @return : ContactList
+ */
 public class AddressBook {
 	List<Contact> contactList = new ArrayList<Contact>();
 
