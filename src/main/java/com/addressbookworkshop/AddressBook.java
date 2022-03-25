@@ -1,13 +1,21 @@
-/* @Purpose : Welcome Message to AddressBook
+/* @Purpose : Adding The Contact Details In AddressBook 
  * @File : Address Book Program
  * @Author : Akshay Kumar
  */
 package com.addressbookworkshop;
 
-public class AddressBook {
+import java.util.ArrayList;
+import java.util.List;
 
-	public static void main(String[] args) {
-		System.out.println("Welcome To AddressBook ");
+public class AddressBook {
+	List<Contact> contactList = new ArrayList<Contact>();
+
+	public void addContact(Contact contacts) {
+		contactList.add(contacts);
+	}
+
+	public List<Contact> getcontactList() {
+		return contactList;
 	}
 
 }
